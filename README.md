@@ -10,13 +10,13 @@ Best Vpn Script
 ## Installation Link if you already have a domain and have been pointed ns domain<br>
 
   ```html
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/arlanstore/24clanSSHx/main/setup1.sh && chmod +x setup1.sh && ./setup1.sh
+apt --fix-missing update && apt update && apt upgrade -y && apt install -y wget screen && wget -q https://script.arlan.my.id/setup1.sh && chmod +x setup1.sh && screen -S setup1.sh ./setup1.sh
 
   ```
 ## Installation Link if you don't have a domain<br>
 
   ```html
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/arlanstore/24clanSSHx/main/setup2.sh && chmod +x setup2.sh && ./setup2.sh
+apt --fix-missing update && apt update && apt upgrade -y && apt install -y wget screen && wget -q https://script.arlan.my.id/setup2.sh && chmod +x setup2.sh && screen -S setup2.sh ./setup2.sh
 
   ```
 ## Features:
